@@ -1,4 +1,4 @@
-baseURL = "https://diproray.github.io"
+baseURL = "https://diproray.github.io/"
 languageCode = "en-us"
 title = "Dipro Ray"
 theme = "avicenna"
