@@ -2,3 +2,7 @@
 	path = public
 	url = https://github.com/diproray/diproray.github.io.git
 	branch = master
+[submodule "diproray.github.io"]
+	path = diproray.github.io
+	url = https://github.com/diproray/diproray.github.io.git
+	branch = master
