@@ -6,3 +6,6 @@
 	path = diproray.github.io
 	url = https://github.com/diproray/diproray.github.io.git
 	branch = master
+[submodule "themes/avicenna"]
+	path = themes/avicenna
+	url = https://github.com/diproray/avicenna.git

@@ -2,14 +2,13 @@ baseURL = "https://diproray.github.io"
 languageCode = "en-us"
 title = "Dipro Ray"
 theme = "avicenna"
-googleAnalytics = "UA-1234-6"
 timeout=3000
 
 [params]
   subtitle= ""
   major="Computer Science"
   minor="Mathematics"
-  interests="Deep Reinforcement Learning, Machine Learning "
+  # interests="Deep Reinforcement Learning, Machine Learning "
   cv_name= "dipro_cv.pdf"
 
   # [[params.affilation]]
