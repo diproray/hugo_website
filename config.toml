@@ -1,0 +1,124 @@
+baseURL = "https://diproray.github.io"
+languageCode = "en-us"
+title = "Dipro Ray"
+theme = "avicenna"
+googleAnalytics = "UA-1234-6"
+timeout=3000
+
+[params]
+  subtitle= ""
+  major="Computer Science"
+  minor="Mathematics"
+  interests="Deep Reinforcement Learning, Machine Learning "
+  cv_name= "dipro_cv.pdf"
+
+  # [[params.affilation]]
+  #   name = "Airbnb and Facebook"
+  #   position = "Incoming SWE Intern"
+[[params.affilation]]
+  name = "University of Illinois at Urbana-Champaign"
+  position = "B.S. in CS + Minor in Math"
+  contact = "dipror2@illinois.edu"
+
+  [[params.social]]
+    name = "Email"
+    icon = "mail"
+    url = "mailto:dipror2@illinois.edu"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/diproray"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/diproray/"
+
+[[params.introduction.paragraph]]
+  text="""Hi there! :D
+
+  I'm Dipro, a junior at [CS @ Illinois](https://cs.illinois.edu/).
+  I'm an experienced software developer ([Facebook](https://www.facebook.com/)) and undergraduate researcher ([NCSA](https://wiki.ncsa.illinois.edu/display/LH/HPC+for+Computational+Genomics#HPCforComputationalGenomics-UndergraduateStudents), [IGL](https://math.illinois.edu/research/igl)). I am passionate about using data to understand the world around us better.
+
+  To that end, I currently work at [Forward Lab](http://www.forwarddatalab.org/) on automated domain-based keyword detection, and at [LPNA](https://lpna.cs.illinois.edu) on Tucker tensor completion. Previously, I worked at Facebook on their Search Typeahead technology, and at NCSA on dimensionality reduction for complex biological data. Later, I'll be at [Airbnb](https://airbnb.com) Seattle and Facebook NYC.
+
+  I also really like to [teach](https://courses.grainger.illinois.edu/cs374/sp2020/A/index.html). Outside class, I help organize [Reflections | Projections](https://reflectionsprojections.org/) (2 years and counting!) and staying fit through [Bodyattack](https://www.lesmills.com/us/workouts/fitness-classes/bodyattack/#facType=modal&filterType=0&classes=ba) and [Bodycombat](https://www.lesmills.com/us/workouts/fitness-classes/bodycombat/#facType=modal&filterType=0&classes=bc) training (I lost 100 lbs in a year and a half!).
+   """
+
+
+# [[params.projects]]
+# 	[[params.projects.project]]
+# 		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
+# 		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = "https://coderepo.com"
+# 		blog_link = "https://ablogpost.com"
+#
+#  [[params.projects.project]]
+# 		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
+# 		description  = ""
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = "https://coderepo.com"
+# 		blog_link = ""
+#
+#  [[params.projects.project]]
+# 		name = "Integer eget aliquet nibh praesent tristique magna"
+# 		description  = ""
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = ""
+# 		blog_link = "https://ablogpost.com"
+#
+# [[params.publications]]
+#   year="Preprint"
+#
+#   [[params.publications.paper]]
+#     name = "Enim nunc faucibus a pellentesque sit amet porttitor"
+#     authors = "Ana Alvardo, William Worthley, __Hadi Sinaee__"
+#     dest  = "Helga Zita Journal"
+#     link = "https://mypaperishere.com"
+#     code_link = "https://thecoderepo.com"
+#     blog_link = "https://myblogaboutit.com"
+#
+#   [[params.publications.paper]]
+#     name = "In cursus turpis massa tincidunt dui ut ornare lectus sit"
+#     authors = "__Hadi Sinaee__,Les Larkins, Edra Ethier"
+#     dest  = "Meklit Katlego Conference"
+#     link = "https://mypaperishere.com"
+#     code_link = "https://thecoderepo.com"
+#     blog_link = "https://myblogaboutit.com"
+#
+# [[params.publications]]
+#   year="2019"
+#
+#   [[params.publications.paper]]
+# 		name = "Feugiat sed lectus vestibulum mattis ullamcorper velit sed"
+# 		authors = "Caroll Comes, __Hadi Sinaee__"
+# 		dest  = "Udo Madhu Journal"
+# 		link = "https://mypaperishere.com"
+# 		code_link = "https://thecoderepo.com"
+# 		blog_link = ""
+#
+#   [[params.publications.paper]]
+# 		name = "Venenatis urna cursus eget nunc. Nam aliquam sem et tortor consequat id porta nibh venenatis"
+# 		authors = "Les Larkins, Ana Alvardo, __Hadi Sinaee__ "
+# 		dest  = "Zorka Vita Conference"
+# 		link = "https://mypaperishere.com"
+# 		code_link = ""
+# 		blog_link = "https://myblogaboutit.com"
+#
+#   [[params.publications.paper]]
+# 		name = "Aliquet eget sit amet tellus cras adipiscing enim eu turpis"
+# 		authors = "Les Larkins, __Hadi Sinaee__, Ana Alvardo"
+# 		dest  = "Lena Randa Conference"
+# 		link = "https://mypaperishere.com"
+# 		code_link = ""
+# 		blog_link = ""
+#
+#   [[params.publications.paper]]
+# 		name = "Orci eu lobortis elementum nibh tellus molestie nunc non blandit"
+# 		authors = "__Hadi Sinaee__, Caroll Comes"
+# 		dest  = "Thandeka Radhika Conference"
+# 		link = ""
+# 		code_link = ""
+# 		blog_link = ""
